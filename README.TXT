@@ -1,0 +1,1 @@
+We provide here the reference materials for QA in regards of the Boxalino Narrative REST API.
