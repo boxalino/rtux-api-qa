@@ -1,4 +1,4 @@
-curl --location --request POST 'https://main.bx-cloud.com/narrative/flaschenpost_api/api/1?profileId=5d508aec-30ea-42bb-9111-bbd24526a46d' \
+curl --location --request POST 'https://main.bx-cloud.com/narrative/[ACCOUNT]/api/1?profileId=5d508aec-30ea-42bb-9111-bbd24526a46d' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "username": "[ACCOUNT]",

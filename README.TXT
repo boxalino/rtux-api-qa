@@ -9,6 +9,8 @@ They all start with the 3 parameters:
     "username": "[ACCOUNT]",
     "apiKey": "[API_KEY]",
     "apiSecret": "[API_SECRET]"
+	
+and in the URL : https://main.bx-cloud.com/narrative/[ACCOUNT]/api/1?profileId=5d508aec-30ea-42bb-9111-bbd24526a46d
 
 Which you need to replace with your credentials.
 
