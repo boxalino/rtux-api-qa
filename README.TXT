@@ -6,7 +6,7 @@ In the curl-requests folder, you will find typical API requests for the most com
 
 They all start with the 3 parameters:
 
-	"username": "[ACCOUNT]",
+    "username": "[ACCOUNT]",
     "apiKey": "[API_KEY]",
     "apiSecret": "[API_SECRET]"
 
@@ -14,14 +14,14 @@ Which you need to replace with your credentials.
 
 They all have:
 
-	"dev": false,
+    "dev": false,
     "test": false
 	
 You might want to do QA on the non-published version of your configuration (test:true) or on your dev data (dev:true)
 
 The all have:
 
-	"sessionId": "e8097b6a-6b25-441e-97eb-2c51cdb80f33",
+    "sessionId": "e8097b6a-6b25-441e-97eb-2c51cdb80f33",
     "profileId": "5d508aec-30ea-42bb-9111-bbd24526a46d",
     "customerId": null,
 	
@@ -29,7 +29,7 @@ and the profileId URL parameter matching "5d508aec-30ea-42bb-9111-bbd24526a46d".
 
 They typically have:
 
-	"hitCount": "10",
+    "hitCount": "10",
     "offset": "0",
     "language": "de",
     "groupBy": "products_group_id",
