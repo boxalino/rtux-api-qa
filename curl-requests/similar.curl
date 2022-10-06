@@ -1,0 +1,35 @@
+curl --location -g --request POST 'https://main.bx-cloud.com/narrative/[ACCOUNT]/api/1?profileId=5d508aec-30ea-42bb-9111-bbd24526a46d' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "username": "[ACCOUNT]",
+    "apiKey": "[API_KEY]",
+    "apiSecret": "[API_SECRET]",
+    "dev": false,
+    "test": false,
+    "sessionId": "e8097b6a-6b25-441e-97eb-2c51cdb80f33",
+    "profileId": "5d508aec-30ea-42bb-9111-bbd24526a46d",
+    "customerId": null,
+    "widget": "similar",
+    "hitCount": "10",
+    "offset": "0",
+    "language": "de",
+    "groupBy": "products_group_id",
+    "returnFields": [
+        "selected_title",
+        "selected_sales_price",
+        "selected_list_price",
+        "selected_link",
+        "selected_image"
+    ],
+	"filters": [],
+    "facets": [],
+    "sort": [],
+    "parameters": [],
+	"items": [
+		{
+		  "field": "id",
+		  "value": "123",
+		  "role": "mainProduct"
+		}
+	]
+}'
